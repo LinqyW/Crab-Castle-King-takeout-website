@@ -1,0 +1,83 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>登录页面</title>
+</head>
+
+<body>
+  <style>
+input {
+  text-align: 20px;
+  font-family: "Microsoft Yahei";
+    height: 44px;
+    line-height: 44px;
+    border: 1px solid #ddd;
+    border-left: 0 none; 
+    width: 223px;
+    padding: 0 20px;
+    font-size: 14px;
+    color: #000;
+}
+.pic1{
+    position: absolute;
+    content: '';
+    background-color: #ddd;
+    width: 46px;
+    height: 46px;
+    background-image: url(login.image/icons.png);
+    background-repeat: no-repeat;
+    left: 70px;
+    top: 82px;
+}
+.pic2{
+  background-position: -45px 2px;
+  position: absolute;
+    content: '';
+    background-color: #ddd;
+    width: 46px;
+    height: 46px;
+    background-image: url(login.image/icons.png);
+    background-repeat: no-repeat;
+    left: 70px;
+    top:140px;
+}
+input[type=submit]{
+    position: relative;
+    left: 91px;
+    top:-20px;
+    display: block;
+    height: 46px;
+    width: 270px;
+    line-height: 46px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    background-color: #1f02c1;
+    border-radius: 2px;
+} 
+a{
+  text-decoration:none;
+  font-family: "Microsoft Yahei";
+}
+  </style>
+  <div>
+<form method="post" action="fetch_where--login.php">
+  <span class="pic1"> </span>
+  <p> &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;
+    <input name="name" type="text" placeholder="请输入用户名字"  >
+  </p>
+  <span class="pic2"> </span>
+  <p>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;
+    <input  name="password" type="password" placeholder="请输入密码">
+ </p>
+  <p>&nbsp;</p>
+  <p> 
+      <input type="submit" name="submit" id="submit" value="登陆"> 
+      <a href="register/register.html">没有账号？</a> 
+  </div>
+  </p>
+</table>
+</form>
+</body>
+</html>

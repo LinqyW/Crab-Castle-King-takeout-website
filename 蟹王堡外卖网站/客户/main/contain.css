@@ -1,0 +1,163 @@
+.contain {
+    width: 1493px;
+    /* height: 120px; */
+    /* margin-top: 10px ;  */
+    height:620px;
+    margin-left: 0px;
+    margin-right: 0px;
+   padding-top: 10px;
+   background: url('main.image/background.jpg') ;
+   padding-right: 0pxs;
+}
+.tent{
+    width: 1160px;
+    height: 600px;
+    background-color: #f4f9ff;
+    border: 1px solid #cae3ff;
+    margin-left: 10px;
+    float: left;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    overflow:auto;
+}
+.tent0{
+    margin: 0;
+    width: 250px;
+    background-color: #ffffff;
+    height: 250px;
+    margin-right: 10px;
+    padding-top: 10px;
+    border:1px solid #cae3ff;
+    display: inline-block;
+}
+ .tent1{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-right: 5px;
+    width: 1140px;
+    background-color: #E2EAF8;
+    height: 263px;
+} 
+.pic{
+    width: 150px;
+    height: 150px;
+    background-color: #f4f4f4;
+}
+.text1{
+    width:230px ;
+    padding: 0;
+    height: 80px;
+    background-color: #ffffff;
+    margin-top: 10px;
+}
+.nav ul.menuNormal {
+    display: none;
+}
+
+.nav ul.menuHover {
+    display: block;
+}
+
+.nav,
+.nav ul {
+    list-style: none;
+    margin: 0;
+    float: left;
+    /* 菜单总体水平位置 */
+    clear: right;
+    padding: 0;
+    background-color: #f8f8f8;
+    width: 300px;
+    height: 200px;
+}
+
+.nav ul ul {
+    border-top: 0px;
+    border-right: 0px;
+    list-style: none;
+    width: 300px;
+}
+
+.nav a {
+    width: 300px;
+    display: block;
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+    padding: 3px 4px 3px 7px;
+    line-height: 30px;
+}
+
+.nav a:hover {
+    color: #000;
+    border: 1px solid #CCC;
+    margin: 0px;
+    padding: 3px 5px 3px 6px;
+    background-color: #f1f1f1;
+    text-decoration: none;
+    line-height: 30px;
+}
+
+.nav li {
+    float: none;
+    clear: right;
+    height: 36px;
+    width: 300px;
+    border-bottom: 0px;
+    /* border:1px solid #CCCCCC; */
+}
+
+.nav li ul li {
+    float: none;
+    clear: right;
+    height: 36px;
+    width: 300px;
+}
+
+.nav li ul {
+    /* 二级弹出位 */
+    position: absolute;
+    margin: -22px 0px 0px 300px;
+    padding: 0;
+    left: -9999em;
+    width: 300px;
+    font-weight: normal;
+    display: block;
+    /* border:1px solid #CCCCCC; */
+    background: #fff;
+}
+
+.nav li ul a {
+    width: 300px;
+    /* 二级菜单宽 */
+    line-height: 30px;
+    /* border:1px solid #CCC; */
+    /* height:36px; */
+    text-align: left;
+    margin: 0px;
+}
+
+.nav li:hover ul ul,
+.nav li.sfhover ul ul {
+    left: -9999em;
+}
+
+.nav li:hover ul,
+.nav li li:hover ul,
+#nav li.sfhover ul,
+#nav li li.sfhover ul {
+    left: auto;
+    height: 36px;
+}
+
+/* 所有弹出菜单自动左边距 */
+.nav li:hover,
+.nav li.sfhover {
+    background: #f1f1f1;
+    height: 36px; 
+}
+
+/*  来一个华丽的分割线 */

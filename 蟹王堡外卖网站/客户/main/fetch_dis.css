@@ -1,0 +1,27 @@
+table {
+    width: 800px;
+    border: 1pt solid #92B0DD;
+    border-collapse: collapse;
+    margin: 40px 140px;
+}
+
+td {
+    border: 1pt dotted #adc9f3;
+    padding: 10px 5px;
+    height: 100px;
+    font-size: 12px;
+    font-display: center;
+    text-align: center;
+}
+
+.tr_line1 {
+    font-weight: bold;
+    color: #13305c;
+    background: #E2EAF8;
+    text-align: center;
+}
+
+.tr_line2 {
+    color: #103266;
+    background: #FFFFFf;
+}

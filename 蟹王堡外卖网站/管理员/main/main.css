@@ -1,0 +1,124 @@
+.header-box {
+    min-width: 1200px;
+    height: 120px;
+    background: #f4f4f4;
+}
+
+body,  h1, h2, h3, h4, h5, h6, form, fieldset,  img, div, tr {
+    color: #333;
+    margin: 0 auto;
+}
+.header-box .header {
+    height: 70px;
+    background: #12205b;
+}
+div{
+    display: block;
+}
+.header-box .header .content {
+    margin: 0 auto;
+    padding-left: 20px;
+    position: relative;
+    width: 1200px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 0;
+    background: #12205b;
+}
+.header-box .header .content .logo {
+    display: inline-block;
+    height: 70px;
+    line-height: 70px;
+    font-size: 0;
+    vertical-align: top;
+}
+.header-box .header .content .logo img {
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+/* a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+} */
+.header-box .header .content .right-side {
+    position: absolute;
+    right: 20px;
+    top: 0;
+    height: 70px;
+    line-height: 70px;
+    font-size: 0;
+}
+
+.header-box .header .content .name {
+    margin-left: 20px;
+    margin-right: 20px;
+     display: inline-block;
+    height: 70px;
+    line-height: 70px;
+    font-size: 14px;
+    color: #fff;
+    vertical-align: top;
+}
+.header-box .header .content .changePwd {
+    padding-right: 26px;
+    display: inline-block;
+    height: 70px;
+    line-height: 70px;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+}
+.header-box .header .content .exit {
+    padding-left: 26px;
+    display: inline-block;
+    height: 70px;
+    line-height: 70px;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    background: url(main.image/logout.png) no-repeat left center;
+    vertical-align: top;
+}
+
+.header-box .header .content .message {
+    position: relative;
+    margin-right: 20px;
+    padding-left: 26px;
+    display: inline-block;
+    height: 70px;
+    line-height: 70px;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    background: url(main.image/nav-News.png) no-repeat left center;
+    vertical-align: top;
+}
+.header-box .header .content .message .txt {
+    color: #fff;
+}
+
+
+/* .header-box a:link {
+	color: #ffffff;
+	text-decoration: none;
+}
+.header-box a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+.header-box a:hover {
+	color: #FF7200;
+	background-color: #FFFFFF;
+	text-decoration: underline;
+}
+.header-box a:active {
+	color: #0b57a4;
+} */
+
+.header-box .header .content.changePwd a{
+    color: #ffffff;
+	text-decoration: none;
+	text-align: 20px;
+
+}

@@ -1,0 +1,29 @@
+table {
+	border-collapse: collapse;
+	width: 600pt;
+	border: 1pt solid #0e1625;
+    /* 边框的厚度还有颜色（2英寸） */
+	vertical-align:middle
+}
+td {
+	border: 1pt solid #0e1625;
+	height:40pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 4px;
+}
+.tr1 {
+	font: 14pt;
+	color: #fdfdf0;
+    text-align: center;
+	background: #365593
+}
+.tr2 {
+	font-size: 14pt;
+    text-align: center;
+    vertical-align:middle;
+	color:#000000;
+	background: #cad5eb
+}
+
+
+/* #FC9200 */
